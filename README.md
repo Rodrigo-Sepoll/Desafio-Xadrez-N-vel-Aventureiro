@@ -31,14 +31,18 @@ Estruturas de Repetição Utilizadas
 •	do-while: Utilizado para o Bispo.
 
 Exemplo de Saída
+
 *** Movimento da Torre ***
+
 A Torre se move 5 casas para a Direita.
 Direita
 Direita
 Direita
 Direita
 Direita
+
 *** Movimento da Rainha ***
+
 A Rainha se move 8 casas para a Esquerda.
 Esquerda
 Esquerda
@@ -48,16 +52,21 @@ Esquerda
 Esquerda
 Esquerda
 Esquerda
+
 *** Movimento do Bispo ***
+
 O Bispo se move 5 casas na diagonal superior direita.
 Cima e Direita (Diagonal)
 Cima e Direita (Diagonal)
 Cima e Direita (Diagonal)
 Cima e Direita (Diagonal)
 Cima e Direita (Diagonal)
+
 *** Movimento do Cavalo ***
+
 O Cavalo se move 2 casas para baixo e 1 casa para a esquerda.
 Baixo
 Baixo
 Esquerda
+
 Desafio Xadrez - Movimentos concluídos.
