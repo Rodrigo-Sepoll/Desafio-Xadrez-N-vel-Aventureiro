@@ -16,5 +16,14 @@ int main(){
     }
     printf("\n");
 
+    // --- Simulação do Movimento da Rainha (usando while) ---
+    printf("*** Movimento da Rainha ***\n");
+    printf("A Rainha se move %d casas para a Esquerda.\n", RAINHA);
+    int contadorRainha = 0;
+    while (contadorRainha < RAINHA) {
+        printf("Esquerda\n"); // Simula um passo para a esquerda
+        contadorRainha++;
+    }
+    printf("\n");    
     return 0;
 }
