@@ -35,5 +35,22 @@ int main(){
         contadorBispo++;
     } while (contadorBispo < BISPO);
     printf("\n");
+
+    // --- Simulação do Movimento do Cavalo (usando for e while aninhados) ---    
+    printf("*** Movimento do Cavalo ***\n");
+    printf("O Cavalo se move %d casas para baixo e %d casa para a esquerda.\n", CAVALO_VERTICAL, CAVALO_HORIZONTAL);
+    
+    // Primeiro loop (for) para as duas casas para baixo
+    for (int i = 0; i < CAVALO_VERTICAL; i++) {
+    printf("Baixo\n"); // Simula um passo para baixo
+    }
+
+    // Segundo loop (while) para a uma casa para a esquerda
+    int contadorCavaloHorizontal = 0;
+    while (contadorCavaloHorizontal < CAVALO_HORIZONTAL) {
+        printf("Esquerda\n"); // Simula um passo para a esquerda
+        contadorCavaloHorizontal++;
+    }
+    printf("\n");
     return 0;
 }
