@@ -24,6 +24,16 @@ int main(){
         printf("Esquerda\n"); // Simula um passo para a esquerda
         contadorRainha++;
     }
-    printf("\n");    
+    printf("\n");
+    
+    // --- Simulação do Movimento do Bispo (usando do-while) ---
+    printf("*** Movimento do Bispo ***\n");
+    printf("O Bispo se move %d casas na diagonal superior direita.\n", BISPO);
+    int contadorBispo = 0;
+    do {
+        printf("Cima e Direita (Diagonal)\n"); // Simula um passo na diagonal
+        contadorBispo++;
+    } while (contadorBispo < BISPO);
+    printf("\n");
     return 0;
 }
