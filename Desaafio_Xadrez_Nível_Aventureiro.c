@@ -52,5 +52,8 @@ int main(){
         contadorCavaloHorizontal++;
     }
     printf("\n");
+
+    printf("Desafio Xadrez - Movimentos concluídos.\n");
+    
     return 0;
 }
