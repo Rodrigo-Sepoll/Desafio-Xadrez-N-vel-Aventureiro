@@ -6,8 +6,15 @@ int TORRE = 5;   // Torre: 5 casas para a direita
 int RAINHA = 8;  // Rainha: 8 casas para a esquerda
 int CAVALO_VERTICAL = 2; // Cavalo: 2 casas em uma direção (vertical)
 int CAVALO_HORIZONTAL = 1; // Cavalo: 1 casa perpendicularmente (horizontal)
-int main(){
 
+int main(){
+    // --- Simulação do Movimento da Torre (usando for) ---
+    printf("*** Movimento da Torre ***\n");
+    printf("A Torre se move %d casas para a Direita.\n", TORRE);
+    for (int i = 0; i < TORRE; i++) {
+        printf("Direita\n"); // Simula um passo para a direita
+    }
+    printf("\n");
 
     return 0;
 }
